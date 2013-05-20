@@ -1,0 +1,31 @@
+/*
+Theme Name: AWS Bootstrap Starter
+Theme URI: http://www.angeliwebs.com/themes/wordpress?slug=aws-bootstrap-starter
+Description: A simple responsive theme based on the Bootstrap framework. 
+Version: 1.0.0
+Author: Angeli Webs Solutions
+Author URI: http://www.angeliwebs.com
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+.site-description {
+    display: none;
+}
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.75);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar .nav > .current-menu-item,
+.navbar .nav > .current-menu-item:hover,
+.navbar .nav > .current-menu-item:focus {
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    background-color: rgb(229, 229, 229);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.125) inset;
+}
+#comment-form-elements {
+    list-style: none;
+}
